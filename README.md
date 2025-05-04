@@ -1,6 +1,6 @@
 # FaceTrait-ViT: A Vision Transformer for Demographic Analysis
 
-![FaceTrait-ViT Logo](/images/facetrait_logo.png)
+![FaceTrait-ViT Logo](images/facetrait_logo.png)
 
 FaceTrait-ViT is a multi-task learning model based on Vision Transformer (ViT) architecture, designed to simultaneously predict age, gender, and race from facial images using the UTKFace dataset.
 
@@ -10,7 +10,7 @@ FaceTrait-ViT is a multi-task learning model based on Vision Transformer (ViT) a
 - **ViT Architecture**: Leverages self-attention mechanisms for better feature extraction
 - **High Accuracy**: Achieves strong performance across all three demographic tasks
 
-![Model Architecture](/images/architecture_diagram.png)
+![Model Architecture](images/architecture_diagram.png)
 
 ## Dataset
 
@@ -23,22 +23,22 @@ The UTKFace dataset consists of over 20,000 face images with annotations of:
 
 Based on extensive evaluation, FaceTrait-ViT achieves the following performance:
 
-![Performance Visualization](/images/performance_metrics.png)
+![Performance Visualization](images/performance_metrics.png)
 
 
 ### Confusion Matrices
 
 The model's classification performance can be visualized through these confusion matrices:
 
-![Confusion Matrices](/images/confusion_matrices.png)
+![Confusion Matrices](images/confusion_matrices.png)
 
-For detailed performance metrics, including precision, recall, and F1-scores for each class, please see the [performance report](/images/performance_report.txt).
+For detailed performance metrics, including precision, recall, and F1-scores for each class, please see the [performance report](images/performance_report.txt).
 
 ## Sample Predictions
 
 Here are some sample predictions made by FaceTrait-ViT across different demographic groups:
 
-![Sample Predictions](/images/sample_predictions.png)
+![Sample Predictions](images/sample_predictions.png)
 
 ## Installation
 
